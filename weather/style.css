@@ -1,0 +1,97 @@
+*{
+    @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+    font-family: 'poppins',sans-serif;
+}
+body{
+    caret-color:transparent;
+}
+.card{
+    height:80vh;
+    width:70vh;
+    margin-left:400px;
+    margin-top:50px;
+    padding-top:30px;
+    background:linear-gradient(to right,rgb(3, 248, 252),rgb(47, 124, 145));
+    border-radius:20px;
+}
+.item1{
+    display:flex;
+    justify-content:center;
+}
+.card input{
+    padding:10px 20px;
+    color:black;
+    border-radius:20px;
+    outline:none;
+    margin-right:20px;
+    caret-color:black;
+    border:1px solid white;
+}
+.card input::placeholder{
+    color:black;
+}
+.card img{
+    width:30%;
+    height:auto;
+    color:black;
+    padding-top:10px;
+}
+
+.card button{
+   border-radius:50%;
+   padding-bottom:10px;
+   padding-left:0px;
+   padding-right:0px;
+   background:white;
+   border:1px solid white;
+   cursor:pointer;
+}
+
+.item2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.p1{
+    font-size:40px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.p2{
+    font-size:30px;
+    font-weight:500;
+    margin-top:5px;
+}
+.item3{
+    display:flex;
+    justify-content:space-around;
+    color:white;
+    margin-top:20px;
+}
+.sub-item31{
+    display:flex;
+}
+.sub-item32{
+    display:flex;
+}
+.item3 img{
+    height:75%;
+    width:auto;
+    margin-right:10px;
+
+}
+.item3 span{
+    font-weight:bold;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+.item3 p{
+    font-size:13px;
+}
+
